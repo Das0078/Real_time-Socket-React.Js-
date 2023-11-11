@@ -70,7 +70,7 @@ const testSchema = new mongoose.Schema({
     collection: 'Data'
 });
 const model = mongoose.model('Data',testSchema);
-mongoose.connect("mongodb+srv://dasdassd007:Das123@cluster0.h3dhkga.mongodb.net/Demo?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://dasdassd007:<password>@cluster0.h3dhkga.mongodb.net/Demo?retryWrites=true&w=majority")
 .then(() => {
     console.log('Connected to the Database successfully');
 })
